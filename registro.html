@@ -1,0 +1,128 @@
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi Blog</title>
+    <!--Import Google Icon Font-->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+    <!-- Compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <!-- Estilos peronales -->
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <header id="header-del-registro">
+      <nav class="container">
+        <a href="index.html" class="brand-logo valign-wrapper"
+          ><img
+            class="responsive-img left z-depth-2"
+            src="./assets/img/Logo.jpg"
+            alt="Mi Logo"
+        /></a>
+        <ul class="right valign-wrapper">
+          <li><a href="#">Sobre Nosotros</a></li>
+          <li><a href="#">Contacto</a></li>
+          <li><a class="btn" href="#">Registro</a></li>
+        </ul>
+      </nav>
+      <section class="container">
+        <div class="row registro-titulo">
+          <div class="col s12 center-align">
+            <h1>Registrate en Platzi News</h1>
+          </div>
+        </div>
+      </section>
+    </header>
+    <main class="container">
+      <div class="row">
+        <div class="col s12">
+          <div class="card-panel">
+            <form action="">
+              <div class="row section">
+                <div class="input-field col s12 m6">
+                  <input type="text" id="first-name" class="validate" />
+                  <label for="first-name">Nombre</label>
+                </div>
+                <div class="input-field col s12 m6">
+                  <input type="text" id="last-name" class="validate" />
+                  <label for="last-name">Apellido</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-field col s12 m6">
+                  <input type="email" id="email" class="validate" />
+                  <label for="email">Correo</label>
+                </div>
+                <div class="input-field col s12 m6">
+                  <input type="password" id="password" class="validate" />
+                  <label for="password">Contraseña</label>
+                </div>
+              </div>
+              <div class="section">
+                <h3 class="center-align">Te interesa:</h3>
+              </div>
+              <div class="section">
+                <div class="row">
+                  <label class="col s12 m4">
+                    <input type="checkbox" />
+                    <span>Politica</span>
+                  </label>
+                  <label class="col s12 m4">
+                    <input type="checkbox" />
+                    <span>Economia</span>
+                  </label>
+                  <label class="col s12 m4">
+                    <input type="checkbox" />
+                    <span>Finanzas</span>
+                  </label>
+                </div>
+                <div class="row">
+                  <label class="col s12 m4">
+                    <input type="checkbox" />
+                    <span>Entretenimiento</span>
+                  </label>
+                  <label class="col s12 m4">
+                    <input type="checkbox" />
+                    <span>Cultura</span>
+                  </label>
+                  <label class="col s12 m4">
+                    <input type="checkbox" />
+                    <span>Economia</span>
+                  </label>
+                </div>
+              </div>
+              <div class="section">
+                <div class="row">
+                  <div class="col s12">
+                    <button class="btn waves-effect waves-light center-align">
+                      <i class="material-icons right">send</i> Enviar
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="page-footer"></footer>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="/__/firebase/7.15.3/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="/__/firebase/7.15.3/firebase-analytics.js"></script>
+
+    <!-- Initialize Firebase -->
+    <script src="/__/firebase/init.js"></script>
+  </body>
+</html>
